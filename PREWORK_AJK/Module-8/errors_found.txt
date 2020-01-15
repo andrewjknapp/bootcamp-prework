@@ -1,0 +1,36 @@
+In the div class jumbotron bg-primary text-center
+The "Boo the Dog Fan Page" needed to have <h1> tags
+
+In the About Boo section the link took you back to the same page. The link had to be placed in the href="" section of the <a> tag.
+
+In the Image div the <img> tag was missing the <>
+
+Boo favorite things
+The contents of the ordered list need to be put into <li> tags
+
+Needed to properly link the js file in html file. This was done by changing the name of the file in line 114.
+
+Added comments to the JS file
+
+Changing color box
+One the javascript was linked the orange and pink buttons functions but displayed the wrong color and the green button did nothing. The problem is in the html. 
+Orange button was labelled textGreen
+Pink button was labelled textOrange (though properly labelled problem persisted. 
+Green button was labelled textPink.
+I next checked teh js file to find the Pink button problem.
+In the textPink function the color change needed to be in "".
+
+Box Grow Function
+click had to be in ""
+
+
+Shrink Funciton
+Click had to be in ""
+
+Random Boo Fact
+First problem I found was bad indentation that hid a missing </div> tag in the html. Once this was fixed all of the boo facts showed up at the same time when clicked. 
+The other problem here was in the construction of the booFacts array. Each string entry must be enclosed in "" and followed by a ,. I went through and added an opening and closing " after each comma. I then noticed that one of the entries contained a comma so I went back and fix it so that there were five entries in total.
+
+After I found all of the errors I put the html into proper indentation.
+
+Finally after all of this I deleted the div containing the instructions so that Boo the Dog's Fan Page can be seen by the masses without the knowledge that it once was riddled with errors.
